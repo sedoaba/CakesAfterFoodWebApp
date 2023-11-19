@@ -1,6 +1,6 @@
 # CakesAfterFoodWebApp
 
-Hi [Team Name],
+Hi Team,
 
 I hope this message finds you well. As part of our ongoing efforts to streamline our development process, we are introducing a new workflow for our Git repository.
 
