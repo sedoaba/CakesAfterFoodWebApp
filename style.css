@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+body{
+    background-color: purple;
+    
+
+}
+header{
+    text-align: center;
+    border: 1 solid yellow;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+}
+a{
+    color: white;
+    text-align: center;
+    padding:10px;
+    border: 1px solid yellow;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: purple;
+    text-decoration: none;
+    display: inline-block;
+}
+form.log{
+    text-align: center;
+}
+
+div{
+    border: 1px solid grey;
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    margin: 20px;
+    padding: 10px;
+    display: inline-block;
+
+}
+.logform{
+    font-size: larger;
+    text-align: center;
+
+    
+}
+input{
+    height: 20px;
+    margin: 10px;
+    border-radius: 5%;
+    padding: 5px;
+}
+.chapo{
+    text-align: center;
+    
+}
