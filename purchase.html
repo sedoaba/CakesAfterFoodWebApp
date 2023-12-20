@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="purchase.css">
+    <script src="js/purchase.js"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">HOME</a>
+        <a href="product.html">PRODUCTS</a>
+        <a href="about.html">ABOUT</a>
+    </header>
+    <main style="text-align: center;">
+        <h1>Purchase</h1>
+        <form id="purchaseForm" onsubmit="return validatePurchaseForm()">
+            <label for="item">Cake type</label>
+            <select id="item" name="item" required>
+                <option value="item1">CHOCOLATE CAKE SICE:</option>
+                <option value="item2">VANILA CAKE SLICE</option>
+                <option value="item3">RED VELVET</option>
+                <option value="item4">Coffee tea</option>
+                <option value="item5"></option>
+            </select>
+            <label for="quantity">Quantity</label>
+            <select name="Quantity" id="quantity">
+                <option value="Q0">select</option>
+                <option value="Q1">1</option>
+                <option value="Q2">2</option>
+            
+            </select><br>
+            <label for="payment">Payment Method</label>
+            <select name="payment" id="payment">
+                <option value="transfer">Cash Transfer</option>
+                <option value="bitcoin">Bitcoin</option>
+            </select><br>
+            <input type="button" value="Buy Now">
+        
+        </form>
+    </main>
+</body>
+</html>
